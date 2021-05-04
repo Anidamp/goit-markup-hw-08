@@ -1,0 +1,26 @@
+.header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border: 1px solid #ECECEC;
+}
+
+.header__link {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.header__link .icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.header__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__link__item {
+    color: var(--main-text-color--);
+}

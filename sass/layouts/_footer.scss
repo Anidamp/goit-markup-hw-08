@@ -1,0 +1,80 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--bg-dark-color);
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 20px;
+}
+.footer__link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer__content {
+    display: flex;
+    align-items: baseline;
+}
+.footer__adress {
+    display: inline-block;
+    flex-basis: calc((50% - 45px) / 2);
+}
+.footer__social {
+    display: inline-block;
+    flex-basis: calc((50% - 45px) / 2);
+}
+
+.footer__social__tittle {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17px;
+    color: var(--hero-text-color);
+}
+
+.footer__send__form {
+    display: flex;
+}
+
+.footer__send__field {
+    width: 358px;
+    height: 50px;
+    padding-left: 10px;
+    margin-right: 12px;
+    border: 1px solid #FFFFFF4D;
+    background-color: inherit;
+}
+
+.button__send {
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 6%;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: var(--accent-text-color);
+    color: var(--hero-text-color);
+    border: transparent;
+    cursor: pointer; 
+}
+
+.button__send::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 13px;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    background-image: url(../images/icons/send.svg);
+}

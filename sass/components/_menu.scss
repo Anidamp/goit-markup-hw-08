@@ -1,0 +1,27 @@
+.menu {
+    display: inline-flex;
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.menu__link {
+    position: relative;
+    display:block;
+}
+
+.menu__item .current {
+    color: var(--accent-text-color);
+}
+
+.menu__item .current::after {
+    display: flex;
+    position: absolute;
+    content: "" ;
+    margin-top: 28px;
+    height: 4px;
+    width: 100%;
+    background: var(--accent-text-color);
+    border-radius: 2px;
+}
