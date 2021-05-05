@@ -1,8 +1,18 @@
 .benefits__list {
+    @media screen and (min-width: 768px) {
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+    }
+
+    @media screen and (min-width: 1200px){
     display: flex;
     padding: 0px;
     margin: 0px;
     margin-right: -30px;
+    }
   }
 
 .benefit__item {
