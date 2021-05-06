@@ -15,7 +15,7 @@
 
 .footer__content {
 
-    @media screen and (min-width: 768px) and (max-width: 1119px) {
+    @media screen and (min-width: 768px) and (max-width: 1198px) {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -76,18 +76,30 @@
 }
 
 .footer__social__tittle {
-    display: inline-block;
+    display: block;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17px;
     color: var(--hero-text-color);
+
+    @media screen and (max-width: 767px) {
+      text-align: center;
+    }
+  
+    @media screen and (min-width: 768px) {
+      text-align: center;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+    }
 }
 
 
 .subscribe {
 
-    @media screen and (max-width: 1119px) {
+    @media screen and (max-width: 1198px) {
         text-align: center;
         margin-top: 60px;
         margin-bottom: 0;
@@ -118,12 +130,16 @@
 }
 
 .footer__send__field {
-    width: 358px;
+    width: 100%;
     height: 50px;
     padding-left: 10px;
     margin-right: 12px;
     border: 1px solid #FFFFFF4D;
     background-color: inherit;
+
+    @media screen and (min-width: 1200px) {
+    width: 358px;
+    }
 }
 
 .button__send {
@@ -142,7 +158,7 @@
     border: transparent;
     cursor: pointer; 
 
-    @media screen and (max-width: 1119px) {
+    @media screen and (max-width: 1198px) {
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;

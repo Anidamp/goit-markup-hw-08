@@ -11,10 +11,25 @@
 
 .button-list {
     display: flex;
-    justify-content: center;
-    margin-top: 100px;
-}
-  
-  .button-list .item + .item {
-    margin-left: 8px;
+    @media screen and (max-width: 767.98px) {
+        flex-wrap: wrap;
+      }
+    
+      @media screen and (min-width: 768px) {
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-top: 100px;
+      }
+    }
+    
+    .button-list .item:not(:last-child) {
+      @media screen and (max-width: 767.98px) {
+        margin-right: 8px;
+      }
+    }
+    
+    .button-list .item + .item {
+      @media screen and (min-width: 768px) {
+        margin-right: 8px;
+      }
 }

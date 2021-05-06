@@ -1,7 +1,12 @@
 .header {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     border: 1px solid #ECECEC;
+
+    @media screen and (min-width: 768px) {
+      padding-top: 26px;
+      padding-bottom: 26px;
+    }
 }
 
 .header__link {
@@ -20,6 +25,20 @@
         margin-left: auto;
         align-items: center;
       }
+    
+    .header__link__item + .header__link__item {
+      @media screen and (max-width: 1198px) {
+        margin-top: 10px;
+      }
+      @media screen and (min-width: 1200px) {
+        margin-left: 50px;
+      }
+    }
+}
+@media screen and (min-width: 1200px) {
+.header-list__item:last-child{
+  margin-left: 50px;
+   }
 }
 
 .header__link .icon {

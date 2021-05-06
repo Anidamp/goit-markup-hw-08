@@ -37,15 +37,15 @@
 
     @media screen and (max-width: 767.98px) {
         max-width: 210px;
-      }
+    }
     
-      @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) {
         max-width: 226px;
-      }
-      @media screen and (min-width: 1200px) {
+    }
+    @media screen and (min-width: 1200px) {
         flex-wrap: nowrap;
         max-width: 170px;
-      }
+    }
 }
 
 .clients__icon {
