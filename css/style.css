@@ -429,6 +429,12 @@ img {
   }
 }
 
+@media screen and (max-width: 767.98px) {
+  .item {
+    margin-bottom: 15px;
+  }
+}
+
 .card {
   padding: 20px 24px;
 }
@@ -529,6 +535,15 @@ img {
 
 .mobile-menu__item:focus, .mobile-menu__item:hover {
   color: var(--accent-text-color);
+}
+
+.menu-mobile__item:first-child {
+  font-size: 34px;
+  color: var(--accent-text-color);
+}
+
+.menu-mobile__item {
+  margin-bottom: 32px;
 }
 
 .social-mobile {

@@ -96,6 +96,15 @@
     }
 }
 
+.menu-mobile__item:first-child{
+  font-size: 34px;
+  color: var(--accent-text-color);
+}
+
+.menu-mobile__item {
+  margin-bottom: 32px;
+}
+
 .social-mobile {
   display: flex;
   justify-content: space-around;
