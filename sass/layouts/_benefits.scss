@@ -73,7 +73,7 @@
 margin-top: 30px;
 color: var(--tittle-text-color);
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
     text-align: center;
 }
 
