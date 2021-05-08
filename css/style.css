@@ -259,6 +259,12 @@ img {
   transition: transform 500ms ease-in-out 100ms;
 }
 
+@media screen and (max-width: 480px) {
+  .modal {
+    width: 100vw;
+  }
+}
+
 .modal-close {
   position: absolute;
   right: 8px;
